@@ -2,9 +2,11 @@ namespace AS2122_4E_INF_SaviMichele_GestioneArticoli
 {
     public partial class Form1 : Form
     {
+        List<Articolo> articoli;
         public Form1()
         {
             InitializeComponent();
+            articoli = new List<Articolo>();
         }
 
         private void btnAggiungi_Click(object sender, EventArgs e)
@@ -15,19 +17,24 @@ namespace AS2122_4E_INF_SaviMichele_GestioneArticoli
             double prezzo = Convert.ToDouble(txtPrezzo.Text);
             int num = 0;
 
-            List<Articolo> articoli;
-            articoli = new List<Articolo>();
-
             Articolo a = new Articolo(codice, descrizione, unitaMisura, prezzo);
             articoli.Add(a);
 
             num++;
             lblNumArticoli.Text = "(" + num + ")";
+
+            txtCodice.Clear();
+            txtDescrizione.Clear();
+            cmbUnitaMisura.Items.Clear();
+            txtPrezzo.Clear();
         }
 
         private void btnVisualizza_Click(object sender, EventArgs e)
         {
-            
+            foreach(string articolo in articoli)
+            {
+                lstVisualizza.Items.Add($"{articolo}\n");
+            }
         }
     }
 }
