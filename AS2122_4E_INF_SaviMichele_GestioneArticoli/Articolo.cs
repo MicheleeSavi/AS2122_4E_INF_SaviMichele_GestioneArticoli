@@ -10,7 +10,15 @@ namespace AS2122_4E_INF_SaviMichele_GestioneArticoli
     {
         string codice;
         string descrizione;
-        string unitaDiMisura;
+        string unitaMisura;
         double prezzo;
+
+        public Articolo(string codice, string descrizione, string unitaMisura, double prezzo)
+        {
+            this.codice = codice;
+            this.descrizione = descrizione;
+            this.unitaMisura = unitaMisura;
+            this.prezzo = prezzo;
+        }
     }
 }
