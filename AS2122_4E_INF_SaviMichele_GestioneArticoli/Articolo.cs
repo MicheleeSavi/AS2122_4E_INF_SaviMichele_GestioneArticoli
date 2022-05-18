@@ -8,5 +8,9 @@ namespace AS2122_4E_INF_SaviMichele_GestioneArticoli
 {
     internal class Articolo
     {
+        string codice;
+        string descrizione;
+        string unitaDiMisura;
+        double prezzo;
     }
 }
