@@ -92,7 +92,7 @@
             // lblArticoli
             // 
             this.lblArticoli.AutoSize = true;
-            this.lblArticoli.Location = new System.Drawing.Point(78, 378);
+            this.lblArticoli.Location = new System.Drawing.Point(74, 378);
             this.lblArticoli.Name = "lblArticoli";
             this.lblArticoli.Size = new System.Drawing.Size(67, 25);
             this.lblArticoli.TabIndex = 5;
@@ -100,7 +100,7 @@
             // 
             // btnAggiungi
             // 
-            this.btnAggiungi.Location = new System.Drawing.Point(160, 274);
+            this.btnAggiungi.Location = new System.Drawing.Point(160, 261);
             this.btnAggiungi.Name = "btnAggiungi";
             this.btnAggiungi.Size = new System.Drawing.Size(235, 55);
             this.btnAggiungi.TabIndex = 6;
@@ -110,9 +110,9 @@
             // 
             // btnVisualizza
             // 
-            this.btnVisualizza.Location = new System.Drawing.Point(719, 21);
+            this.btnVisualizza.Location = new System.Drawing.Point(740, 21);
             this.btnVisualizza.Name = "btnVisualizza";
-            this.btnVisualizza.Size = new System.Drawing.Size(69, 34);
+            this.btnVisualizza.Size = new System.Drawing.Size(48, 34);
             this.btnVisualizza.TabIndex = 7;
             this.btnVisualizza.Text = "...";
             this.btnVisualizza.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@
             "Visualizza articoli"});
             this.cmbVisualizza.Location = new System.Drawing.Point(512, 22);
             this.cmbVisualizza.Name = "cmbVisualizza";
-            this.cmbVisualizza.Size = new System.Drawing.Size(182, 33);
+            this.cmbVisualizza.Size = new System.Drawing.Size(222, 33);
             this.cmbVisualizza.TabIndex = 8;
             // 
             // cmbUnitaMisura
@@ -145,9 +145,9 @@
             // 
             this.lstVisualizza.FormattingEnabled = true;
             this.lstVisualizza.ItemHeight = 25;
-            this.lstVisualizza.Location = new System.Drawing.Point(512, 83);
+            this.lstVisualizza.Location = new System.Drawing.Point(512, 58);
             this.lstVisualizza.Name = "lstVisualizza";
-            this.lstVisualizza.Size = new System.Drawing.Size(277, 354);
+            this.lstVisualizza.Size = new System.Drawing.Size(277, 379);
             this.lstVisualizza.TabIndex = 10;
             // 
             // txtPrezzo
