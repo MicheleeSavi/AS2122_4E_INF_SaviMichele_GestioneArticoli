@@ -6,5 +6,15 @@ namespace AS2122_4E_INF_SaviMichele_GestioneArticoli
         {
             InitializeComponent();
         }
+
+        private void btnAggiungi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVisualizza_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
